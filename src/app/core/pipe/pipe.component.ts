@@ -4,7 +4,7 @@ import { CurrencyPipe, DatePipe, TitleCasePipe } from '@angular/common';
   selector: 'app-pipe',
   imports: [CurrencyPipe, DatePipe, TitleCasePipe],
   templateUrl: './pipe.component.html',
-  styleUrl: './pipe.component.css'
+  styleUrl: './pipe.component.css',
 })
 export class PipeComponent {
   company = 'Angular';
