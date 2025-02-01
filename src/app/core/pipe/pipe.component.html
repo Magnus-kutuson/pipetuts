@@ -1,5 +1,11 @@
 <main>
     <h1>Purchase from {{company | titlecase}} on {{purchaseDate | date}}</h1>
 
-    <p>{{purchaseAmount | currency}}</p>
+    <p>Total: {{purchaseAmount | currency}}</p>
+
+    <p>The event will occur on {{ purchaseDate | date | uppercase }}.</p>
+    <p>The event will occur on {{ purchaseDate| date: 'hh:mm' }}.</p>
+    <p>{{firstName + ' '+ lastName | uppercase}}</p>
+    <p>{{isAdmin ? 'Access granted' : 'Access denied'}}</p>
+    <p>{{ isAdmin ? 'Access granted' : ('Access denied' | uppercase) }}</p>
 </main>
