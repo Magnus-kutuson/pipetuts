@@ -1,8 +1,9 @@
 import { Component } from '@angular/core';
+import { MycustompipePipe } from '../core/pipe/mycustompipe.pipe';
 
 @Component({
   selector: 'app-transform',
-  imports: [],
+  imports: [MycustompipePipe],
   templateUrl: './transform.component.html',
   styleUrl: './transform.component.css'
 })
