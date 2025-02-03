@@ -1,13 +1,11 @@
 import { Pipe, PipeTransform } from '@angular/core';
 
 @Pipe({
-  name: 'mycustompipe'
+  name: 'mycustompipe',
 })
 export class MycustompipePipe implements PipeTransform {
-
-  transform(value: string, args: any): string{
+  transform(value: string | null | undefined): string {
     if (!value) return '';
     return value.toLowerCase();
   }
-
 }
