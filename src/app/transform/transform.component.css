@@ -1,0 +1,37 @@
+p{
+    color: red;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: lightblue;
+    box-shadow: 10px 10px 5px grey;
+    width: 50%;
+    height: 50%;
+    display: block;
+    margin: auto;
+    padding: 20px;
+    text-transform: uppercase;
+    text-decoration: underline;
+    text-shadow: 2px 2px 2px grey;
+    font-family: Arial, sans-serif;
+    line-height: 1.5;
+    letter-spacing: 2px;
+    word-spacing: 5px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    cursor: pointer;
+    user-select: none;
+    opacity: 0.5;
+    transition: all 0.5s;
+}
