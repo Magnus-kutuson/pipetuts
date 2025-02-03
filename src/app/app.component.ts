@@ -1,10 +1,11 @@
 import { Component } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
-import { PipeComponent } from './core/pipe/pipe.component';
+import { TransformComponent } from './transform/transform.component';
+
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet, PipeComponent],
+  imports: [RouterOutlet, TransformComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
