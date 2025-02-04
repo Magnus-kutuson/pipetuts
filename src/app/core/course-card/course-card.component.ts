@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
 import { COURSES } from '../model/db.data';
 
 
@@ -8,7 +8,12 @@ import { COURSES } from '../model/db.data';
   templateUrl: './course-card.component.html',
   styleUrl: './course-card.component.css'
 })
+  
+  
 export class CourseCardComponent {
+
+  @Input()
+  title!: string;
 
   coreCourse = COURSES[0];
 
