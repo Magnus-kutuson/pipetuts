@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { COURSES } from '../public/db-data.ts';
+import { COURSES } from '../model/db.data';
 
 @Component({
   selector: 'app-decorator',
@@ -11,4 +11,7 @@ export class DecoratorComponent {
  
   coreCourse = COURSES[0];
 
+  rxjxCourse = COURSES[1];
+
+  ngrxCourse = COURSES[2];
 }
