@@ -7,5 +7,6 @@ import { Component } from '@angular/core';
   styleUrl: './decorator.component.css'
 })
 export class DecoratorComponent {
+ 
 
 }
