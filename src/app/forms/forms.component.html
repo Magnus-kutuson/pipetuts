@@ -7,11 +7,11 @@
         </div>
         <div class="form-control">
             <label for="email">Email</label>
-            <input type="text" placeholder="Email" [(ngModel)]="userData.email" name="email" required>
+            <input type="email" placeholder="Email" id="email" [(ngModel)]="userData.email" name="email" required>
         </div>
         <div class="form-control">
             <label for="password">Password</label>
-            <input type="text" placeholder="Password" [(ngModel)]="userData.password" name="password" required>
+            <input type="password" placeholder="Password" id="password" [(ngModel)]="userData.password" name="password" required>
         </div>
         <button type="submit">Submit</button>
     </form>
