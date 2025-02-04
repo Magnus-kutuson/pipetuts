@@ -1,1 +1,18 @@
-<p>forms works!</p>
+<main>
+    <form action="#" #form="ngForm" (ngSubmit)="onSubmit(form)">
+        <h1>Create an account</h1>
+        <div class="form-control">
+            <label for="name">Name</label>
+            <input type="text" placeholder="Name" [(ngModel)]="userData.name" name="name"  required>
+        </div>
+        <div class="form-control">
+            <label for="email">Email</label>
+            <input type="text" placeholder="Email" [(ngModel)]="userData.email" name="email" required>
+        </div>
+        <div class="form-control">
+            <label for="password">Password</label>
+            <input type="text" placeholder="Password" [(ngModel)]="userData.password" name="password" required>
+        </div>
+        <button type="submit">Submit</button>
+    </form>
+</main>
