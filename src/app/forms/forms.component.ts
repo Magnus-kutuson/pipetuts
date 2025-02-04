@@ -9,12 +9,8 @@ import { FormsModule } from '@angular/forms';
   styleUrl: './forms.component.css'
 })
 export class FormsComponent {
-  name: string = '';
-  email: string = '';
-  password: string = '';
 
-
-  userData = {
+userData = {
     name: '',
     email: '',
     password: ''
