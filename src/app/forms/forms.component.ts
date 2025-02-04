@@ -9,9 +9,6 @@ import { FormsModule } from '@angular/forms';
   styleUrl: './forms.component.css'
 })
 export class FormsComponent {
-
-
-
   userData = {
     name: '',
     email: '',
