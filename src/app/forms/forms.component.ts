@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { FormsModule } from '@angular/forms';
+import { FormsModule, NgForm } from '@angular/forms';
 
 @Component({
   selector: 'app-forms',
@@ -16,7 +16,7 @@ userData = {
     password: ''
   }
 
-onSubmit(form: any) {
+onSubmit(form: NgForm) {
   console.log('Form submitted', form.value);
 }
 }
