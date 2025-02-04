@@ -1,0 +1,33 @@
+main{
+    width: 600px;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    margin: 8rem auto;
+}
+.form-control{
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    margin: 1rem;
+}
+input{
+    width: 300px;
+    height: 30px;
+    border: 1px solid #C4C4C4;
+    padding-left: 1rem;
+    border-radius: 4px;
+}
+button{
+    width: 300px;
+    height: 30px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+.ng-invalid.ng-touched:not(form){
+    border: 1px solid red;
+}
